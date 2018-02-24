@@ -5,11 +5,14 @@ class view extends \mvc\view
 {
 	function config()
 	{
-		$this->data->bodyclass = 'unselectable vflex';
-		// $this->include->js     = false;
-
-		$this->data->page['title']   = $this->data->site['title'] . ' | '. $this->data->site['slogan'];
-		$this->data->page['special'] = true;
+		// $this->include->css_ermile   = false;
+		// $this->include->js           = false;
+		// if($this->module() === 'home')
+		// {
+		// 	$this->data->bodyclass  = 'unselectable';
+		// 	$this->include->js_main      = false;
+		// 	$this->include->css          = false;
+		// }
 	}
 
 
@@ -19,10 +22,10 @@ class view extends \mvc\view
 	 */
 	function pushState()
 	{
-		// if($this->module() !== 'home')
-		// {
-		// 	$this->data->display['mvc']     = "content/home/layout-xhr.html";
-		// }
+		if($this->module() !== 'home')
+		{
+			// $this->data->display['mvc']     = "content/home/layout-xhr.html";
+		}
 	}
 }
 ?>
