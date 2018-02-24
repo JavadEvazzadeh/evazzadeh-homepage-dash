@@ -7,21 +7,21 @@ class view extends \lib\view
 	{
 		// define default value for global
 
-		$this->data->site['title']           = T_("DashSample");
-		$this->data->site['desc']            = T_("DashSample project");
-		$this->data->site['slogan']          = T_("Modern Approach");
+		$this->data->site['title']  = T_("Dash");
+		$this->data->site['desc']   = T_("Free PHP Framework & CMS!");
+		$this->data->site['slogan'] = T_("The simple framework for php programmers ;)");
 
-		$this->data->page['desc']            = $this->data->site['desc']. ' | '. $this->data->site['slogan'];
+		$this->data->page['desc']   = $this->data->site['desc']. ' | '. $this->data->site['slogan'];
 
-		$this->data->bodyclass               = 'unselectable';
+		$this->data->bodyclass      = 'unselectable';
 
-		$this->include->css_ermile       = false;
-		// $this->include->js_main       = false;
-		$this->include->css              = false;
-		// $this->include->js            = false;
+		$this->include->css_ermile  = false;
+		// $this->include->js_main  = false;
+		$this->include->css         = false;
+		// $this->include->js       = false;
 
 		// if you need to set a class for body element in html add in this value
-		$this->data->bodyclass           = null;
+		$this->data->bodyclass      = null;
 
 		if(method_exists($this, 'options'))
 		{
