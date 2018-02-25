@@ -9,19 +9,19 @@
 
 
 {%block body%}
- <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="glyphicon glyphicon-th-list"></i></a>
+ <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="sf-list"></i></a>
  <nav id="sidebar-wrapper">
   <ul class="sidebar-nav">
-   <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="glyphicon glyphicon-remove"></i></a>
+   <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="sf-times"></i></a>
    <li class="sidebar-brand"><a href="#top"  onclick = $("#menu-close").click(); >{{site.title}}</a></li>
    <li><a href="#top" onclick = $("#menu-close").click();>{%trans "Home"%}</a></li>
    <li><a href="#slogan" onclick = $("#menu-close").click();>{%trans "Slogan"%}</a></li>
    <li><a href="#timeline" onclick = $("#menu-close").click();>{%trans "About"%}</a></li>
    <li><a href="#contact" onclick = $("#menu-close").click();>{%trans "Contact"%}</a></li>
    <hr />
-   <li><a href="https://github.com/Ermile/Saloos/" target="_blank">
+   <li><a href="https://github.com/Ermile/dash/" target="_blank">
    {%trans "Check on Github"%}</a></li>
-   <li><a href="https://github.com/Ermile/Saloos/archive/master.zip" target="_blank">{%trans "Download Latest Version"%}</a></li>
+   <li><a href="https://github.com/Ermile/dash/archive/master.zip" target="_blank">{%trans "Download Latest Version"%}</a></li>
 
    <li class="langList">{%trans "Language List"%}</li>
 {%for key, lang in site.langlist if site.langlist|length >1 and site.currentlang != key|slice(0, 2)%}
@@ -37,10 +37,7 @@
    <h3>{{site.desc}}</h3>
    <br>
    <a href="#slogan" class="btn btn-dark btn-lg">{%trans "Find Out More"%}</a>
-{%if site.currentlang == 'fa'%}
-   <a href="/doc" class="btn btn-dark btn-lg">{%trans "Documentation"%}</a>
-{%endif%}
-   <a href="https://github.com/Ermile/Saloos/" class="btn btn-dark btn-lg" target="_blank">{%trans "Check on Github"%}</a>
+   <a href="https://github.com/Ermile/dash/" class="btn btn-dark btn-lg" target="_blank">{%trans "Check on Github"%}</a>
   </div>
  </header>
 
@@ -150,8 +147,8 @@
   <div class="container">
    <div class="row">
     <div class="col-lg-12 text-center">
-     <a href="https://github.com/Ermile/Saloos/archive/master.zip" class="btn btn-lg btn-light">{%trans "Download Latest Version"%}</a>
-     <a href="https://github.com/Ermile/Saloos" class="btn btn-lg btn-dark" target="_blank">{%trans "Check on Github"%}</a>
+     <a href="https://github.com/Ermile/dash/archive/master.zip" class="btn btn-lg btn-light">{%trans "Download Latest Version"%}</a>
+     <a href="https://github.com/Ermile/dash" class="btn btn-lg btn-dark" target="_blank">{%trans "Check on Github"%}</a>
     </div>
    </div>
   </div>
@@ -160,7 +157,7 @@
 
  <!-- Map -->
  <section id="contact" class="map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9222715295373!2d50.884069915550675!3d34.631404494433475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f93bc8773e6f7b5%3A0xc7376f2f87852216!2z2LPYsdi02YXYp9ix!5e0!3m2!1sen!2sir!4v1483090313738" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen style="border:0"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.188288698108!2d50.8768872152269!3d34.64994749344239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f93bc8771510471%3A0x3ef2e32aa59a7df6!2sErmile!5e0!3m2!1sen!2s!4v1519516366076" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen style="border:0"></iframe>
  </section>
 
 
@@ -171,7 +168,7 @@
     <div class="row">
      <div class="footer-col col-md-4">
       <h3>{%trans "Location"%}</h3>
-      <p>{%trans "#614, Omranieh, Moallem St"%}<br>{%trans "Qom, IRAN"%}<br>{%trans "+98 25 3773 5183"%}</p>
+      <p>{%trans "Qom, IRAN"%}<br>{%trans "+98 25 3650 5281"%}</p>
      </div>
      <div class="footer-col col-md-4">
       <h3>{%trans "Another Languages"%}</h3>
@@ -192,7 +189,7 @@
    <div class="container">
     <div class="row">
      <div class="col-lg-12">
-      {%trans "Copyright"%} &copy; {{site.title | upper }} {%trans "2013"%}-{{'now'|jdate('Y')}}
+      {%trans "Copyright"%} &copy; {{site.title | upper }} {{"2013/01/01" | tdate('Y')}}-{{'now'|tdate('Y')}}
      </div>
     </div>
    </div>
@@ -203,7 +200,6 @@
 
 
 {%block js%}
- <script src="{{url.static}}js/script-home.js"></script>
 
  <script>
  // Closes the sidebar menu
