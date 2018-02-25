@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dashSample - Persian\n"
-"POT-Creation-Date: 2018-02-25 03:28+0330\n"
-"PO-Revision-Date: 2018-02-25 03:30+0330\n"
+"POT-Creation-Date: 2018-02-25 03:54+0330\n"
+"PO-Revision-Date: 2018-02-25 03:57+0330\n"
 "Last-Translator: Javad <J.Evazzadeh@gmail.com>\n"
 "Language-Team: Ermile <J.Evazzadeh@gmail.com>\n"
 "Language: fa_IR\n"
@@ -5163,7 +5163,7 @@ msgid "Enter a valid username!"
 msgstr "نام کاربری معتبر وارد کنید!"
 
 #: DashSample/includes/languages/trans_addons.php:1172
-#: DashSample/includes/languages/trans_twig.php:47
+#: DashSample/includes/languages/trans_twig.php:53
 #: DashSample/includes/mvc/view.php:10
 #: dash/addons/includes/languages/trans_addons.php:1194
 msgid "Dash"
@@ -7099,30 +7099,54 @@ msgid "We can register Ermile trademark:)"
 msgstr "نام تجاری ارمایل توسط ما به ثبت رسید:)"
 
 #: DashSample/includes/languages/trans_twig.php:38
+msgid "March 2017"
+msgstr "فروردین ۱۳۹۶"
+
+#: DashSample/includes/languages/trans_twig.php:39
+msgid "Sarshomar Launched"
+msgstr "سرشمار عرضه شد"
+
+#: DashSample/includes/languages/trans_twig.php:40
+msgid "Our first public, world class and enterprise project is released."
+msgstr "اولین سرویس عمومی، در سطح جهانی و بزرگ مقیاس ما منتشر شد."
+
+#: DashSample/includes/languages/trans_twig.php:41
+msgid "September 2017"
+msgstr "شهریور ۱۳۹۴"
+
+#: DashSample/includes/languages/trans_twig.php:42
+msgid "Rename to Dash"
+msgstr "تغییرنام به دش"
+
+#: DashSample/includes/languages/trans_twig.php:43
+msgid "We decide to combine Saloos and some other subprojects to Dash!"
+msgstr "ما تصمیم به یکپارچه‌سازی سالوس و چند زیرپروژه دیگر تحت نام جدید دش گرفتیم!"
+
+#: DashSample/includes/languages/trans_twig.php:44
 msgid "To be <br />continue..."
 msgstr "ادامه دارد..."
 
-#: DashSample/includes/languages/trans_twig.php:39
+#: DashSample/includes/languages/trans_twig.php:45
 msgid "Location"
 msgstr "مکان"
 
-#: DashSample/includes/languages/trans_twig.php:40
+#: DashSample/includes/languages/trans_twig.php:46
 msgid "Qom, IRAN"
 msgstr "ایران، قم"
 
-#: DashSample/includes/languages/trans_twig.php:41
+#: DashSample/includes/languages/trans_twig.php:47
 msgid "+98 25 3650 5281"
 msgstr "۵۲۸۱ ۳۶۵۰ ۰۲۵"
 
-#: DashSample/includes/languages/trans_twig.php:42
+#: DashSample/includes/languages/trans_twig.php:48
 msgid "Another Languages"
 msgstr "سایر زبان‌ها"
 
-#: DashSample/includes/languages/trans_twig.php:43
+#: DashSample/includes/languages/trans_twig.php:49
 msgid " is a free to use, open source PHP framework created by"
 msgstr "برای استفاده رایگان است، یک فریم‌ورک پی‌اچ‌پی منبع‌باز ساخته شده توسط"
 
-#: DashSample/includes/languages/trans_twig.php:44
+#: DashSample/includes/languages/trans_twig.php:50
 msgid "Copyright"
 msgstr "کپی‌رایت"
 
