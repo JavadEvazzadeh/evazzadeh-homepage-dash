@@ -7,7 +7,7 @@ class view extends \mvc\view
 	{
 		// $this->include->css_ermile   = false;
 		// $this->include->js           = false;
-		// if($this->module() === 'home')
+		// if(\lib\url::module() === null)
 		// {
 		// 	$this->data->bodyclass  = 'unselectable';
 		// 	$this->include->js_main      = false;
@@ -22,7 +22,7 @@ class view extends \mvc\view
 	 */
 	function pushState()
 	{
-		if($this->module() !== 'home')
+		if(\lib\url::module() !== null)
 		{
 			// $this->data->display['mvc']     = "content/home/layout-xhr.html";
 		}
