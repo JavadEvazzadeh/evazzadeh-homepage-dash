@@ -5,14 +5,7 @@ class view extends \mvc\view
 {
 	function config()
 	{
-		// $this->include->css_ermile   = false;
-		// $this->include->js           = false;
-		// if(\lib\url::module() === null)
-		// {
-		// 	$this->data->bodyclass  = 'unselectable';
-		// 	$this->include->js_main      = false;
-		// 	$this->include->css          = false;
-		// }
+
 	}
 
 
