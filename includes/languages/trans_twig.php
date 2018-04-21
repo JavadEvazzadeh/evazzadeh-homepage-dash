@@ -4,7 +4,7 @@ class twigTransTerms
  private function transtext()
  {
 
-	//-------------------------------------------------------content\home\display.html
+	//-----------------------------------projects/DashSample/content/home/display.html
 	echo T_("Home");                                                                  // Line 17
 	echo T_("Slogan");                                                                // Line 18
 	echo T_("About");                                                                 // Line 216
@@ -49,10 +49,10 @@ class twigTransTerms
 	echo T_(" is a free to use, open source PHP framework created by");               // Line 217
 	echo T_("Copyright");                                                             // Line 226
 
-	//--------------------------------------------includes\languages\trans_static.html
+	//------------------------projects/DashSample/includes/languages/trans_static.html
 	echo T_("Dash");                                                                  // Line 7 Seperate
 
-	//---------------------public_html\static\siftal\fonts\siftal\icons-reference.html
+	//-projects/DashSample/public_html/static/siftal/fonts/siftal/icons-reference.html
 
  }
 }
