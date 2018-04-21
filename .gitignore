@@ -16,3 +16,4 @@ desktop.ini
 
 *sftp-config.json
 *.me.php
+/dash
