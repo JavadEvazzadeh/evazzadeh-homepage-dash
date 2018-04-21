@@ -207,8 +207,8 @@
      <div class="footer-col col-md-4">
       <h3>{%trans "Another Languages"%}</h3>
       <p>
-{%for key, lang in site.langlist if site.langlist|length >1 and site.currentlang != key|slice(0, 2)%}
-     <a href="{{url.root}}{%if site.defaultLang != key|slice(0, 2) %}/{{key|slice(0, 2)}}{%endif%}" hreflang="{{key|slice(0, 2)}}" data-action>{{lang}}</a>
+{%for key, mylang in lang.list if lang.list|length >1 and lang.current != key|slice(0, 2)%}
+     <a href="{{url.base}}{%if lang.default != key|slice(0, 2) %}/{{key|slice(0, 2)}}{%endif%}" hreflang="{{key|slice(0, 2)}}" data-action>{{mylang}}</a>
 {%endfor%}
       </p>
      </div>
