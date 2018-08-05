@@ -9,10 +9,10 @@
 
 
 {%block body%}
- <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="sf-list"></i></a>
+ <a id="menu-toggle" href="#" class="btn hauto btn-dark btn-lg toggle"><i class="sf-list"></i></a>
  <nav id="sidebar-wrapper">
   <ul class="sidebar-nav">
-   <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="sf-times"></i></a>
+   <a id="menu-close" href="#" class="btn hauto btn-light btn-lg pull-right toggle"><i class="sf-times"></i></a>
    <li class="sidebar-brand"><a href="#top"  onclick = $("#menu-close").click(); >{{site.title}}</a></li>
    <li><a href="#top" onclick = $("#menu-close").click();>{%trans "Home"%}</a></li>
    <li><a href="#slogan" onclick = $("#menu-close").click();>{%trans "Slogan"%}</a></li>
@@ -36,8 +36,8 @@
    <h1>{{site.title | upper }}</h1>
    <h3>{{site.desc}}</h3>
    <br>
-   <a href="#slogan" class="btn btn-dark btn-lg">{%trans "Find Out More"%}</a>
-   <a href="https://github.com/Ermile/dash/" class="btn btn-dark btn-lg" target="_blank">{%trans "Check on Github"%}</a>
+   <a href="#slogan" class="btn hauto btn-dark btn-lg">{%trans "Find Out More"%}</a>
+   <a href="https://github.com/Ermile/dash/" class="btn hauto btn-dark btn-lg" target="_blank">{%trans "Check on Github"%}</a>
   </div>
  </header>
 
@@ -181,8 +181,8 @@
   <div class="container">
    <div class="row">
     <div class="col-lg-12 text-center">
-     <a href="https://github.com/Ermile/dash/archive/master.zip" class="btn btn-lg btn-light">{%trans "Download Latest Version"%}</a>
-     <a href="https://github.com/Ermile/dash" class="btn btn-lg btn-dark" target="_blank">{%trans "Check on Github"%}</a>
+     <a href="https://github.com/Ermile/dash/archive/master.zip" class="btn hauto btn-lg btn-light">{%trans "Download Latest Version"%}</a>
+     <a href="https://github.com/Ermile/dash" class="btn hauto btn-lg btn-dark" target="_blank">{%trans "Check on Github"%}</a>
     </div>
    </div>
   </div>
