@@ -1,5 +1,6 @@
 <?php
 /**
+* to run this file rename if to config.me.php
 * sample config
 */
 // database name
