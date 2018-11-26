@@ -8,9 +8,10 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.image-preload {
+.preloadImage {
 	position: absolute;
-	left: -9999px;
+	z-index: -1;
+	display: none;
 }
 .nosupport {
 	display: none;
