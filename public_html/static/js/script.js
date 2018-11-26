@@ -6694,8 +6694,13 @@
             var t = window.location.hash,
                 e = null,
                 i = null;
-            "" != t && (e = document.querySelector(t)), null == e && (e = document.querySelector(".slide"), t = "#" + e.getAttribute("id")), i = document.querySelector("[href='" + t + "']");
-            var r = Z[e.getAttribute("data-weather")];
+
+            // all type of rain we need
+            // rain
+            // drizzle
+            // sunny
+            // storm
+            var r = Z['drizzle'];
             K = r, G.options = Object.assign(G.options, r), G.clearDrops(), w["default"].fromTo(H, 1, {
                 v: 0
             }, {
@@ -6704,10 +6709,6 @@
                     p(r.fg, r.bg, H.v), q.updateTextures()
                 }
             });
-            var n = document.querySelector(".slide--current");
-            null != n && n.classList.remove("slide--current");
-            var s = document.querySelector(".nav-item--current");
-            null != s && s.classList.remove("nav-item--current"), e.classList.add("slide--current"), i.classList.add("nav-item--current")
         }
 
         function f(t, e, i, r) {
