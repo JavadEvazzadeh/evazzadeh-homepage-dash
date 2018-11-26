@@ -6572,7 +6572,7 @@
         }
 
         function s() {
-            W = document.querySelector("#container");
+            W = document.querySelector("#rainBox");
             var t = window.devicePixelRatio;
             W.width = window.innerWidth * t, W.height = window.innerHeight * t, W.style.width = window.innerWidth + "px", W.style.height = window.innerHeight + "px", G = new g["default"](W.width, W.height, t, N, I, {
                 trailRate: 1,

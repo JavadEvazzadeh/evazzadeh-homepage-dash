@@ -154,4 +154,25 @@ body {
 }
 
 
+.me{
+	position: absolute;
+	overflow: hidden;
+	top: 20%;
+	margin: 0 auto;
+	display: block;
+	right: 0;
+	left:0;
+	z-index: 2;
+}
+.me img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+#rainBox{position:absolute;z-index: 0;width:1;height:1;}
+
+.container{z-index: 3}
 
