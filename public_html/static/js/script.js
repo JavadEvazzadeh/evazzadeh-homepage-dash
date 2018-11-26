@@ -7225,6 +7225,10 @@
             var u = t.getAttribLocation(o, "a_position"),
                 c = t.getAttribLocation(o, "a_texCoord"),
                 f = t.createBuffer();
+            if(c === -1)
+            {
+                c = undefined;
+            }
             t.bindBuffer(t.ARRAY_BUFFER, f), t.bufferData(t.ARRAY_BUFFER, new Float32Array([-1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1, 1]), t.STATIC_DRAW), t.enableVertexAttribArray(c), t.vertexAttribPointer(c, 2, t.FLOAT, !1, 0, 0);
             var p = t.createBuffer();
             return t.bindBuffer(t.ARRAY_BUFFER, p), t.enableVertexAttribArray(u), t.vertexAttribPointer(u, 2, t.FLOAT, !1, 0, 0), o
