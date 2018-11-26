@@ -10,6 +10,8 @@ class view
 		\dash\data::site_desc(T_("Trust Me, I'm an Engineer").' '.  T_('Place to share knowledge of a human on earth!'));
 		\dash\data::site_slogan(T_("Trust Me, I'm an Engineer"));
 		\dash\data::page_desc(\dash\data::site_desc(). ' | '. \dash\data::site_slogan());
+
+		\dash\data::siftalJS('off');
 	}
 }
 ?>
