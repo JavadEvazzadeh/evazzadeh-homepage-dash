@@ -15,9 +15,9 @@ self::$language =
 /**
  * system default lanuage
  */
-self::$config['site']['title']         = "Dash";
-self::$config['site']['desc']          = "Free PHP Framework & CMS!";
-self::$config['site']['slogan']        = "The simple framework for php programmers ;)";
+self::$config['site']['title']         = "Javad Evazzadeh Kakroudi";
+self::$config['site']['desc']          = "Trust Me, I'm an Engineer | وب شخصی من جایی برای انتشار دانسته های یک انسان. این وب سایت بیشتر جنبه آموزشی داره. پس احتمالا چیزی هم برای شما پیدا میشه!";
+self::$config['site']['slogan']        = "Software Solution Designer";
 
 self::$config['debug']                 = true;
 self::$config['enter']['force_verify'] = false;
