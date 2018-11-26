@@ -1,18 +1,6 @@
 
 
 
-
-
-body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.preloadImage {
-	position: absolute;
-	z-index: -1;
-	display: none;
-}
 .nosupport {
 	display: none;
 	margin: 0 auto;
@@ -30,7 +18,7 @@ body {
 	display: block;
 }
 
-.slideshow {
+.bg {
 	position: relative;
 	height: 100vh;
 	width: 100vw;
@@ -39,7 +27,7 @@ body {
 	overflow: hidden;
 }
 
-.slideshow::before {
+.bg::before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -47,111 +35,6 @@ body {
 	width: 100%;
 	height: 100%;
 	background: rgba(255, 255, 255, 0.2);
-}
-
-.slide {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	padding: 35vh 0 0 0;
-	pointer-events: none;
-	line-height: 1;
-}
-
-.slide--current {
-	pointer-events: auto;
-}
-
-.slideshow__nav {
-	text-align: center;
-	width: 100%;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-align-items: center;
-	align-items: center;
-	position: absolute;
-	bottom: 28vh;
-}
-
-.nav-item {
-	display: block;
-	padding: 1em;
-	color: #252445;
-	-webkit-transition: color 0.3s;
-	transition: color 0.3s;
-}
-
-.nav-item:hover,
-.nav-item:focus,
-.nav-item--current {
-	color: #fff;
-}
-
-.nav-item .icon {
-	font-size: 2em;
-}
-
-.nav-item span {
-	display: block;
-	margin: 0.25em 0 0 0;
-	font-weight: 700;
-}
-
-
-/* Content */
-
-.slide__element {
-	opacity: 0;
-	color: #252445;
-	-webkit-transform: translate3d(0, 50px, 0);
-	transform: translate3d(0, 50px, 0);
-	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
-}
-
-.slide--current .slide__element {
-	opacity: 1;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
-
-.slide__element--temp {
-	font-size: 8em;
-	font-weight: 700;
-	margin: 0 0 0.1em;
-}
-
-.slide__element--temp small {
-	font-size: 0.25em;
-}
-
-.slide__element--info {
-	font-size: 2em;
-}
-
-.slide__element--date {
-	font-size: 1em;
-	font-weight: 700;
-	margin: 0 0 1em;
-}
-
-@media screen and (max-height: 39em) {
-	.slideshow {
-		font-size: 75%;
-	}
-	.slide {
-		padding-top: 35vh;
-	}
-	.slideshow__nav {
-		bottom: 6em;
-	}
 }
 
 
@@ -173,7 +56,6 @@ body {
 	display: block;
 }
 
-#rainBox{position:absolute;z-index: 0;width:1;height:1;}
+#rainBox{position:absolute;z-index: 0;width:1px;height:1px;}
 
-.container{z-index: 3}
 
