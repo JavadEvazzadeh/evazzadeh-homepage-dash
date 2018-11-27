@@ -11,7 +11,7 @@ class view
 		\dash\data::site_slogan(T_("Trust Me, I'm an Engineer"));
 		\dash\data::page_desc(\dash\data::site_desc(). ' | '. \dash\data::site_slogan());
 
-		\dash\data::siftalJS('off');
+		// \dash\data::siftalJS('off');
 		\dash\data::bodyclass('loading');
 	}
 }
