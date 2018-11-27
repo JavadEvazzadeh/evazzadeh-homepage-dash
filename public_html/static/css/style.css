@@ -66,22 +66,16 @@
 
 
 
-.me canvas{
+#iAm{
+	position: fixed;
+	top:0;
+	/*bottom: 0;*/
+	height: 200px;
+	right: 0;
+	left: 0;
+	z-index: 10;
 	background: black;
 	width: 100vw;
 	height: 100vh;
 }
-.me p{
-	position: fixed;
-	left: 0;
-	bottom:5px;
-	color: #fff;
-	z-index:10;
-	font-size:16px;
-	opacity:0.5;
-	width: 100%;
-	text-align: center;
-	margin: 0;
-}
-
 
