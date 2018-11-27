@@ -73,8 +73,9 @@ body.loading .me h1{
 	opacity: 0
 }
 body.loading .me img{
-	width: 150px;
-	height: 150px;
+	margin-top: 25px;
+	width: 250px;
+	height: 250px;
 }
 
 
@@ -150,8 +151,8 @@ body.loaded .loadingBg .loadingRight
 	display:block;
 	position:relative;
 	top: 20%;
-	width:150px;
-	height:150px;
+	width:300px;
+	height:300px;
 	margin: 0 auto 0;
 	border-radius:50%;
 	border:3px solid transparent;
