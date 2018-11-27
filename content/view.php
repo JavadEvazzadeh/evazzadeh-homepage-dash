@@ -12,6 +12,7 @@ class view
 		\dash\data::page_desc(\dash\data::site_desc(). ' | '. \dash\data::site_slogan());
 
 		\dash\data::siftalJS('off');
+		\dash\data::bodyclass('loading');
 	}
 }
 ?>

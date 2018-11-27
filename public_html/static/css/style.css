@@ -60,13 +60,30 @@ body.resized #rainBox{
 	border-radius: 50%;
 	margin: 0 auto 1em;
 	display: block;
+	transition:
 }
 .me h1{
 	font-weight: 900;
 	color: #eee;
 }
 
-
+body.loading::after{
+	content:"";
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #e8eaf0;
+}
+body.loading .me h1{
+	color: #333;
+}
+body.loading .me img{
+	z-index: 2;
+	width: 300px;
+	height: 300px;
+}
 
 
 
