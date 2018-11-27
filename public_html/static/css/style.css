@@ -86,7 +86,52 @@ body.loading .me img{
 */
 
 
+/* loading background*/
+.loadingBg .loadingLeft
+{
+	position:fixed;
+	top:0;
+	width:51%;
+	height:100%;
+	background:#222;
+	z-index:5;
+	-webkit-transform:translateX(0);
+	-ms-transform:translateX(0);
+	transform:translateX(0);
+	left:0
+}
 
+.loadingBg .loadingRight
+{
+	position:fixed;
+	top:0;
+	width:51%;
+	height:100%;
+	background:#222;
+	z-index:5;
+	-webkit-transform:translateX(0);
+	-ms-transform:translateX(0);
+	transform:translateX(0);
+	right:0
+}
+
+body.loaded .loadingBg .loadingLeft
+{
+	-webkit-transform:translateX(-100%);
+	-ms-transform:translateX(-100%);
+	transform:translateX(-100%);
+	-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);
+	transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)
+}
+
+body.loaded .loadingBg .loadingRight
+{
+	-webkit-transform:translateX(100%);
+	-ms-transform:translateX(100%);
+	transform:translateX(100%);
+	-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);
+	transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)
+}
 
 
 
@@ -187,51 +232,6 @@ body.loading .me img{
 }
 
 
-.loadingLeft
-{
-	position:fixed;
-	top:0;
-	width:51%;
-	height:100%;
-	background:#222;
-	z-index:5;
-	-webkit-transform:translateX(0);
-	-ms-transform:translateX(0);
-	transform:translateX(0);
-	left:0
-}
-
-.loadingRight
-{
-	position:fixed;
-	top:0;
-	width:51%;
-	height:100%;
-	background:#222;
-	z-index:5;
-	-webkit-transform:translateX(0);
-	-ms-transform:translateX(0);
-	transform:translateX(0);
-	right:0
-}
-
-.loaded .loadingLeft
-{
-	-webkit-transform:translateX(-100%);
-	-ms-transform:translateX(-100%);
-	transform:translateX(-100%);
-	-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);
-	transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)
-}
-
-.loaded .loadingRight
-{
-	-webkit-transform:translateX(100%);
-	-ms-transform:translateX(100%);
-	transform:translateX(100%);
-	-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);
-	transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)
-}
 
 .loaded .preloadWrapper .loader
 {
