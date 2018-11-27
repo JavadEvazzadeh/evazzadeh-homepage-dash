@@ -50,7 +50,7 @@ body.resized #rainBox{
 	display: block;
 	right: 0;
 	left:0;
-	z-index: 9;
+	z-index: 7;
 	text-align: center;
 	font-size: 1.4em;
 }
@@ -66,24 +66,17 @@ body.resized #rainBox{
 	font-weight: 900;
 	color: #eee;
 }
-/*
-body.loading::after{
-	content:"";
-	position:absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: #e8eaf0;
+body.loading .me{
+	/*top: 5%;*/
 }
 body.loading .me h1{
-	color: #333;
+	opacity: 0
 }
 body.loading .me img{
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 150px;
 }
-*/
+
 
 
 /* loading background*/
@@ -139,7 +132,7 @@ body.loaded .loadingBg .loadingRight
 
 
 
-
+/*loading loader*/
 .preloadWrapper
 {
 	position:fixed;
@@ -149,24 +142,23 @@ body.loaded .loadingBg .loadingRight
 	right:0;
 	width:100%;
 	height:100%;
-	z-index:8
+	z-index:10
 }
 
 .preloadWrapper .loader
 {
 	display:block;
 	position:relative;
-	right:50%;
-	top:50%;
+	top: 20%;
 	width:150px;
 	height:150px;
-	margin:-75px 0 0 -75px;
+	margin: 0 auto 0;
 	border-radius:50%;
 	border:3px solid transparent;
 	border-top-color:#3498db;
+	overflow: hidden;
 	-webkit-animation:spin 2s linear infinite;
 	animation:spin 2s linear infinite;
-	z-index:11
 }
 
 .preloadWrapper .loader:before
