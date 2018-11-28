@@ -3,6 +3,8 @@
  * save logs in other database
  */
 
+include_once('social.php');
+
 /**
 @ In the name Of Allah
 * The base configurations of the dashsample.
