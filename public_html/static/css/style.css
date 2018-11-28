@@ -346,10 +346,10 @@ body.loaded .loadingBg .loadingRight
 
 
 @media (max-width: 767px) {
-	.me{top: 30px;}
-	body.loading .me{top: 60px;}
+	.me{top: 30px;transition: 1s;transition-delay: 0.5s}
+	body.loading .me{top: 60px;top: calc(40% - 30px);}
 	.me img{width:200px;height: 200px}
-	.preloadWrapper .loader{top: 60px;}
+	.preloadWrapper .loader{top: 60px;top: calc(40% - 30px);}
 
 }
 
