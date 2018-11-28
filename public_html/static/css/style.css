@@ -65,12 +65,21 @@ body.resized #rainBox{
 .me h1{
 	font-weight: 900;
 	color: #eee;
+	opacity: 1;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+.me .myBlogLink{
+	opacity: 1;
+  	transition: 0.5s;
+  	transition-delay: 0.7s;
+  	margin-bottom: 1em;
 }
 body.loading .me{
 	/*top: 5%;*/
 }
 body.loading .me h1{
-	opacity: 0
+	opacity: 0;
 }
 body.loading .me img{
 	margin-top: 50px;
@@ -80,6 +89,10 @@ body.loading .me img{
 body.loading .me .social{
 	opacity: 0;
 }
+body.loading .me .myBlogLink{
+	opacity: 0;
+}
+
 
 
 
