@@ -133,8 +133,8 @@ body.loaded .loadingBg .loadingLeft
 	-webkit-transform:translateX(-100%);
 	-ms-transform:translateX(-100%);
 	transform:translateX(-100%);
-	-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);
-	transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)
+	-webkit-transition:all .7s 1.5s cubic-bezier(0.645,0.045,0.355,1.000);
+	transition:all .7s 1.5s cubic-bezier(0.645,0.045,0.355,1.000)
 }
 
 body.loaded .loadingBg .loadingRight
@@ -142,8 +142,8 @@ body.loaded .loadingBg .loadingRight
 	-webkit-transform:translateX(100%);
 	-ms-transform:translateX(100%);
 	transform:translateX(100%);
-	-webkit-transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000);
-	transition:all .7s .3s cubic-bezier(0.645,0.045,0.355,1.000)
+	-webkit-transition:all .7s 1.5s cubic-bezier(0.645,0.045,0.355,1.000);
+	transition:all .7s 1.5s cubic-bezier(0.645,0.045,0.355,1.000)
 }
 
 /*loading loader*/
