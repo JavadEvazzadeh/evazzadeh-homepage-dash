@@ -6,5 +6,9 @@ Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /*.asp$
 Disallow: /*.txt$
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/
 
-Sitemap: /sitemap.xml
+Sitemap: http://evazzadeh.com/sitemap.xml
+Sitemap: http://evazzadeh.com/sitemap_index.xml
