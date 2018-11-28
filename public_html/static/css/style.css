@@ -81,31 +81,24 @@ body.loading .me img{
 
 
 /* loading background*/
-.loadingBg .loadingLeft
-{
+.loadingBg div{
 	position:fixed;
 	top:0;
 	width:51%;
 	height:100%;
-	background:#444;
 	z-index:5;
 	-webkit-transform:translateX(0);
 	-ms-transform:translateX(0);
 	transform:translateX(0);
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSI+CjxyZWN0IHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgZmlsbD0iIzI4MjgyOCI+PC9yZWN0Pgo8Y2lyY2xlIGN4PSIzIiBjeT0iNC4zIiByPSIxLjgiIGZpbGw9IiMzOTM5MzkiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIzIiBjeT0iMyIgcj0iMS44IiBmaWxsPSJibGFjayI+PC9jaXJjbGU+CjxjaXJjbGUgY3g9IjEwLjUiIGN5PSIxMi41IiByPSIxLjgiIGZpbGw9IiMzOTM5MzkiPjwvY2lyY2xlPgo8Y2lyY2xlIGN4PSIxMC41IiBjeT0iMTEuMyIgcj0iMS44IiBmaWxsPSJibGFjayI+PC9jaXJjbGU+Cjwvc3ZnPg==");
+}
+.loadingBg .loadingLeft
+{
 	left:0
 }
 
 .loadingBg .loadingRight
 {
-	position:fixed;
-	top:0;
-	width:51%;
-	height:100%;
-	background:#444;
-	z-index:5;
-	-webkit-transform:translateX(0);
-	-ms-transform:translateX(0);
-	transform:translateX(0);
 	right:0
 }
 
