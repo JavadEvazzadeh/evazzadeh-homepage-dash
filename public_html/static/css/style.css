@@ -77,6 +77,9 @@ body.loading .me img{
 	width: 150px;
 	height: 150px;
 }
+body.loading .me .social{
+	opacity: 0;
+}
 
 
 
@@ -246,6 +249,9 @@ body.loaded .loadingBg .loadingRight
   height: 100px;
   margin: 0 auto;
   position: relative;
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 1s;
 }
 .social ul {
   list-style-type: none;
@@ -274,7 +280,8 @@ body.loaded .loadingBg .loadingRight
   outline: none;
   z-index: 9;
   background: #333;
-  font-size: 20px;
+  font-size: 25px;
+  cursor: pointer;
 }
 .social .socialToggle:hover {
   color: #fff;

@@ -41,7 +41,7 @@ $(document).ready(function(){
 					ease:Elastic.easeOut,
 					easeParams:[1.1,0.6]
 				})
-				TweenMax.to($toggleButton.children(".socialIcon"),.8,{
+				TweenMax.to($toggleButton.children("i"),.8,{
 					scale:1.4,
 					ease:Elastic.easeOut,
 					easeParams:[1.1,0.6]
@@ -70,7 +70,7 @@ $(document).ready(function(){
 				easeParams:[1.1,0.6]
 			})
 
-			TweenMax.fromTo($cur.children(".socialIcon"),0.2,{
+			TweenMax.fromTo($cur.children("i"),0.2,{
 				scale:0
 			},{
 				delay:(0.2*dist)-0.1,
@@ -80,7 +80,7 @@ $(document).ready(function(){
 		})
 	}
 	function closeShareMenu(){
-		TweenMax.to([$toggleButton,$toggleButton.children(".socialIcon")],1.4,{
+		TweenMax.to([$toggleButton,$toggleButton.children("i")],1.4,{
 			delay:0.1,
 			scale:1,
 			ease:Elastic.easeOut,
@@ -101,7 +101,7 @@ $(document).ready(function(){
 				ease:Quad.easeInOut,
 			});
 
-			TweenMax.to($cur.children(".socialIcon"),0.2,{
+			TweenMax.to($cur.children("i"),0.2,{
 				scale:0,
 				ease:Quad.easeIn
 			});
