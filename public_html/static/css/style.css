@@ -272,6 +272,9 @@ body.loaded .loadingBg .loadingRight
   transition: 0.5s;
   transition-delay: 1s;
 }
+.social span {
+	display: none;
+}
 .social ul {
   list-style-type: none;
   padding: 0;
