@@ -90,7 +90,7 @@ body.loading .me img{
 	-webkit-transform:translateX(0);
 	-ms-transform:translateX(0);
 	transform:translateX(0);
-	background: url(../images/bgLoading.jpg);
+	background: #222 url(../images/bgLoading.jpg);
 }
 .loadingBg .loadingLeft
 {
