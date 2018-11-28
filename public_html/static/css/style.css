@@ -231,3 +231,98 @@ body.loaded .loadingBg .loadingRight
 	-webkit-transition:all .3s 1s ease-out;
 	transition:all .3s 1s ease-out
 }
+
+
+
+
+
+
+
+
+
+
+.share {
+  max-width: 600px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+.share ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.share li {
+  display: inline-block;
+}
+.share .shareToggle {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+  text-align: center;
+  color: #eee;
+  transition: color 0.3s;
+  border: none;
+  outline: none;
+  z-index: 9;
+  background: #333;
+  font-size: 20px;
+}
+.share .shareToggle:hover {
+  color: #fff;
+}
+
+.share .shareLink
+{
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin-left: -40px;
+  margin-top: -40px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  background: #444;
+  -webkit-transform: scale(0.95, 0.95);
+  transform: scale(0.95, 0.95);
+}
+.share a.shareLink {
+  color: #ccc;
+}
+.share a.shareLink:hover{
+  color: #ddd;
+}
+.share a.shareLink:focus {
+  color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
