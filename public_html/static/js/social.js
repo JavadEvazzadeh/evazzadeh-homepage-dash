@@ -113,8 +113,12 @@ $(document).ready(function(){
 
 		menuOpen?openShareMenu():closeShareMenu();
 	}
-	$toggleButton.on("mousedown",function(){
+
+	$toggleButton.on("mousedown",function()
+	{
 		toggleShareMenu();
+
+		playRainAudio();
 	})
 
 })

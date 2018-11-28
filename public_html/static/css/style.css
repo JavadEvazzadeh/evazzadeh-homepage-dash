@@ -344,33 +344,7 @@ body.loaded .loadingBg .loadingRight
 
 
 
-
-.loading #playBtn{visibility: hidden;}
-#playBtn{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height:40px;
-  width: 40px;
-  margin: 1em;
-  border: none;
-  outline:none;
-  color: #eee;
-  background-color: #222;
-  border-radius: 50%;
-  z-index: 9;
-  cursor: pointer;
-}
-#playBtn::after{
-	content: "";
-	font-family: Siftal;
-	vertical-align: middle;
-	font-size: 1.5em;
-}
-#playBtn.play::after{content: "\e110"}
-#playBtn.pause::after{content: "\e232"}
-
-
+.rainSound{display: none;}
 
 
 
