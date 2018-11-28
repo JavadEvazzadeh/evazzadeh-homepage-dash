@@ -6538,28 +6538,36 @@
                 src: "static/img/drop-color.png"
             }, {
                 name: "textureRainFg",
-                src: "static/img/weather/texture-rain-fg.png"
+                // src: "static/img/weather/texture-rain-fg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureRainBg",
-                src: "static/img/weather/texture-rain-bg.png"
+                // src: "static/img/weather/texture-rain-bg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureStormLightningFg",
-                src: "static/img/weather/texture-storm-lightning-fg.png"
+                // src: "static/img/weather/texture-storm-lightning-fg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureStormLightningBg",
-                src: "static/img/weather/texture-storm-lightning-bg.png"
+                // src: "static/img/weather/texture-storm-lightning-bg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureFalloutFg",
-                src: "static/img/weather/texture-fallout-fg.png"
+                // src: "static/img/weather/texture-fallout-fg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureFalloutBg",
-                src: "static/img/weather/texture-fallout-bg.png"
+                // src: "static/img/weather/texture-fallout-bg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureSunFg",
-                src: "static/img/weather/texture-sun-fg.png"
+                // src: "static/img/weather/texture-sun-fg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureSunBg",
-                src: "static/img/weather/texture-sun-bg.png"
+                // src: "static/img/weather/texture-sun-bg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureDrizzleFg",
                 // src: "static/img/weather/texture-drizzle-fg.png"
