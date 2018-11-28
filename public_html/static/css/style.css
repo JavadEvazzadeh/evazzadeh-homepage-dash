@@ -346,7 +346,11 @@ body.loaded .loadingBg .loadingRight
 
 
 
+@media (max-width: 767px) {
+	.me{top: 7%}
+	.preloadWrapper .loader{top: 7%}
 
+}
 
 
 
