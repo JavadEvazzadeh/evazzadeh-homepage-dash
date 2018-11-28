@@ -46,9 +46,17 @@
 
   </div>
 
+  <div class="rainSound">
+    <button id="playBtn" class="play" onclick="playRainAudio()"></button>
+    <audio id="audioplayer" loop="loop">
+      <source src="https://rainymood.com/audio1110/1.m4a" type="audio/mp4" />
+      <source src="https://rainymood.com/audio1110/1.ogg" type="audio/ogg" />
+      <source src="https://rainymood.com/audio1110/1.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
 
   <p class="nosupport">Sorry, but your browser does not support WebGL!</p>
-
 
   <div class="bg">
     <canvas id="rainBox"></canvas>
@@ -70,6 +78,7 @@
   <script src="{{url.base}}/static/js/rain.js"></script>
   <script src="{{url.base}}/static/js/loading.js"></script>
   <script src="{{url.base}}/static/js/social.js"></script>
+  <script src="{{url.base}}/static/js/rainSound.js"></script>
 
 {%endblock%}
 
