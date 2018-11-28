@@ -241,22 +241,22 @@ body.loaded .loadingBg .loadingRight
 
 
 
-.share {
+.social {
   max-width: 600px;
   height: 100px;
   margin: 0 auto;
   position: relative;
 }
-.share ul {
+.social ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.share li {
+.social li {
   display: inline-block;
 }
-.share .shareToggle {
+.social .socialToggle {
   position: absolute;
   display: inline-block;
   left: 50%;
@@ -276,11 +276,11 @@ body.loaded .loadingBg .loadingRight
   background: #333;
   font-size: 20px;
 }
-.share .shareToggle:hover {
+.social .socialToggle:hover {
   color: #fff;
 }
 
-.share .shareLink
+.social .socialLink
 {
   position: absolute;
   display: inline-block;
@@ -301,13 +301,13 @@ body.loaded .loadingBg .loadingRight
   -webkit-transform: scale(0.95, 0.95);
   transform: scale(0.95, 0.95);
 }
-.share a.shareLink {
+.social a.socialLink {
   color: #ccc;
 }
-.share a.shareLink:hover{
+.social a.socialLink:hover{
   color: #ddd;
 }
-.share a.shareLink:focus {
+.social a.socialLink:focus {
   color: #eee;
 }
 
