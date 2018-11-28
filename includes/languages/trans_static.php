@@ -5,6 +5,7 @@ class TransStatic
  {
 
 	echo T_("Dash");
+	echo T_("Read my blog");
 
 	}
 }
