@@ -6562,10 +6562,12 @@
                 src: "static/img/weather/texture-sun-bg.png"
             }, {
                 name: "textureDrizzleFg",
-                src: "static/img/weather/texture-drizzle-fg.png"
+                // src: "static/img/weather/texture-drizzle-fg.png"
+                src: "static/img/rose.jpg"
             }, {
                 name: "textureDrizzleBg",
-                src: "static/img/weather/texture-drizzle-bg.png"
+                // src: "static/img/weather/texture-drizzle-bg.png"
+                src: "static/img/rose.jpg"
             }]).then(function(t) {
                 O = t.textureRainFg.img, j = t.textureRainBg.img, A = t.textureFalloutFg.img, M = t.textureFalloutBg.img, k = t.textureStormLightningFg.img, R = t.textureStormLightningBg.img, C = t.textureSunFg.img, D = t.textureSunBg.img, F = t.textureDrizzleFg.img, E = t.textureDrizzleBg.img, I = t.dropColor.img, N = t.dropAlpha.img, s()
             })
