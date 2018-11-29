@@ -19,6 +19,7 @@ switch ($myFirst)
 	case 'hook':
 	case 'enter':
 	case 'dev':
+	case 'error404':
 	case 'en':
 	case false:
 		// run dash
