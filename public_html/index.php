@@ -18,6 +18,7 @@ switch ($myFirst)
 	case 'su':
 	case 'hook':
 	case 'enter':
+	case 'dev':
 	case 'en':
 	case false:
 		// run dash
