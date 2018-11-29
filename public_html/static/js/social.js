@@ -121,5 +121,5 @@ $(document).ready(function(){
 		playRainAudio();
 	})
 
-})
+});
 
