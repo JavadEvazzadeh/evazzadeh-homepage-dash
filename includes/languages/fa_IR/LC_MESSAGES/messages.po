@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Evazzadeh - Persian\n"
-"POT-Creation-Date: 2018-11-28 05:27+0330\n"
-"PO-Revision-Date: 2018-11-28 05:28+0330\n"
+"POT-Creation-Date: 2018-11-30 03:55+0330\n"
+"PO-Revision-Date: 2018-11-30 03:56+0330\n"
 "Last-Translator: Javad Kakroudi <J.Evazzadeh@gmail.com>\n"
 "Language-Team: Ermile <J.Evazzadeh@gmail.com>\n"
 "Language: fa_IR\n"
@@ -12108,6 +12108,16 @@ msgstr "کپی‌رایت"
 #: evazzadeh/includes/languages/trans_static.php:8
 msgid "Read my blog"
 msgstr "خواندن وب توشته‌های من"
+
+#: evazzadeh/includes/languages/trans_static.php:9
+#, fuzzy
+#| msgid "Read my blog"
+msgid "My blog"
+msgstr "خواندن وب توشته‌های من"
+
+#: evazzadeh/includes/languages/trans_static.php:10
+msgid "My web kit"
+msgstr "وب توشه‌های من"
 
 #~ msgid "Maybe your browser saved your password incorrectly."
 #~ msgstr "امیدواریم مرورگر شما پسوردتون رو اشتباه ذخیره کرده باشه."
