@@ -73,7 +73,7 @@ body.resized .bg::before{
 	border-radius: 50%;
 	margin: 0 auto 1em;
 	display: block;
-	transition: opacity 0.3s;
+	transition: 0.3s;
 }
 .me h1{
 	font-weight: 900;
