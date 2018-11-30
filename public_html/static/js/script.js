@@ -6546,12 +6546,12 @@
                 src: "static/img/rose.jpg"
             }, {
                 name: "textureStormLightningFg",
-                // src: "static/img/weather/texture-storm-lightning-fg.png"
-                src: "static/img/rose.jpg"
+                src: "static/img/weather/texture-storm-lightning-fg.png"
+                // src: "static/img/rose.jpg"
             }, {
                 name: "textureStormLightningBg",
-                // src: "static/img/weather/texture-storm-lightning-bg.png"
-                src: "static/img/rose.jpg"
+                src: "static/img/weather/texture-storm-lightning-bg.png"
+                // src: "static/img/rose.jpg"
             }, {
                 name: "textureFalloutFg",
                 // src: "static/img/weather/texture-fallout-fg.png"
