@@ -7448,10 +7448,17 @@ function playRainAudio()
 {
     if (myRain.paused)
     {
+        var myWeather     = ['rain', 'drizzle', 'sunny', 'storm'];
+        var randomWeather = myWeather[Math.floor(Math.random() * myWeather.length)];
+
+        history.replaceState(undefined, undefined, "#" + randomWeather)
+
         myRain.play();
+        $('body').addClass('rainy');
     }
     else
     {
+        $('body').removeClass('rainy');
         myRain.pause();
     }
 }
