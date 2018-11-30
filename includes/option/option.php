@@ -14,6 +14,11 @@ self::$language =
 	'default' => 'fa',
 	'list'    => ['fa','en',],
 ];
+
+self::$url['root']     = 'evazzadeh';
+// self::$url['tld']      = 'com';
+self::$url['protocol'] = 'https';
+
 /**
  * system default lanuage
  */
