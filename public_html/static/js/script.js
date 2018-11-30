@@ -7482,6 +7482,16 @@ window.addEventListener("resize", function resized()
 
 
 
+$(".menu").click(function(){
+   $(this).parent().toggleClass("close");
+});
+
+
+
+
+
+
+
 
 
 

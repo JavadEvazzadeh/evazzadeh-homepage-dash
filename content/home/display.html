@@ -81,6 +81,7 @@
     <div class="loader"></div>
   </div>
 
+  {{block('corverMenu')}}
 {%endblock%}
 
 
@@ -94,4 +95,29 @@
     </div>
 {%endblock%}
 
+
+
+{%block corverMenu%}
+<div class="base">
+   <div class="menu">
+      <div class="icon">
+         <div class="bar"></div>
+      </div>
+   </div>
+   <div class="icons">
+      <i class="sf-film" aria-hidden="true"></i>
+      <i class="sf-edit" aria-hidden="true"></i>
+      <i class="sf-download" aria-hidden="true"></i>
+   </div>
+   <div class="section">
+      <div class="cover1">
+         <div class="cover2">
+            <a class="content" data-direct href="{{url.base}}/blog"></a>
+         </div>
+      </div>
+   </div>
+   <a class="section-static top" data-direct href="{{url.base}}/category/learning-video/"></a>
+   <a class="section-static bottom" data-direct href="{{url.base}}/static/resume/Resume_Javad_Evazzadeh-v1.7.pdf"></a>
+</div>
+{%endblock%}
 
