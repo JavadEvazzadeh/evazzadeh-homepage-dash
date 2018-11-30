@@ -6625,6 +6625,7 @@
             c(), window.addEventListener("hashchange", function(t) {
                 h()
             }), h()
+
         }
 
         function c() {
@@ -6711,6 +6712,14 @@
             // sunny
             // storm
             var r = Z['drizzle'];
+            var myMood = window.location.hash;
+            myMood = myMood.substring(1);
+            if(myMood == 'rain' || myMood == 'drizzle' || myMood == 'sunny' || myMood == 'storm')
+            {
+                console.log("Now it's " + myMood);
+                r = Z[myMood];
+            }
+
             K = r, G.options = Object.assign(G.options, r), G.clearDrops(), w["default"].fromTo(H, 1, {
                 v: 0
             }, {
@@ -7451,9 +7460,19 @@ function playRainAudio()
         var myWeather     = ['rain', 'drizzle', 'sunny', 'storm'];
         var randomWeather = myWeather[Math.floor(Math.random() * myWeather.length)];
 
-        history.replaceState(undefined, undefined, "#" + randomWeather)
+        // history.replaceState(undefined, undefined, "#" + randomWeather)
+        window.location.hash = randomWeather;
+        if(randomWeather === 'sunny')
+        {
+            myRain.muted = true;
+        }
+        else
+        {
+            myRain.muted = false;
+        }
 
         myRain.play();
+
         $('body').addClass('rainy');
     }
     else
