@@ -7344,7 +7344,7 @@ $(document).ready(function(){
             ease:Quad.easeOut,
             onComplete:function(){
                 TweenMax.to($toggleButton,.8,{
-                    scale:0.5,
+                    scale:0.8,
                     ease:Elastic.easeOut,
                     easeParams:[1.1,0.6]
                 })
