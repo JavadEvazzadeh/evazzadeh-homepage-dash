@@ -5,13 +5,13 @@
 */
 self::$social['status']                       = true;
 
-self::$social['list']['telegram']             = 'evazzadeh';
-self::$social['list']['facebook']             = 'j.evazzadeh';
-self::$social['list']['twitter']              = 'evazzadeh';
-self::$social['list']['instagram']            = 'evazzadeh';
-self::$social['list']['googleplus']           = '+JavadEvazzadeh';
-self::$social['list']['github']               = 'evazzadeh';
-self::$social['list']['linkedin']             = 'evazzadeh';
+self::$social['list']['telegram']             = 'JenabAdib';
+self::$social['list']['facebook']             = 'JenabAdib';
+self::$social['list']['twitter']              = 'MrAdib';
+self::$social['list']['instagram']            = 'JenabAdib';
+// self::$social['list']['googleplus']           = '+JavadEvazzadeh';
+self::$social['list']['github']               = 'JenabAdib';
+self::$social['list']['linkedin']             = 'mradib';
 self::$social['list']['aparat']               = 'ermile';
 
 /**

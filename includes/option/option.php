@@ -23,6 +23,7 @@ self::$url['protocol'] = 'https';
  * system default lanuage
  */
 self::$config['site']['title']           = "Javad Evazzadeh Kakroudi";
+self::$config['site']['title']           = "Javad Adib";
 self::$config['site']['desc']            = "Trust Me, I'm an Engineer | وب شخصی من جایی برای انتشار دانسته های یک انسان. این وب سایت بیشتر جنبه آموزشی داره. پس احتمالا چیزی هم برای شما پیدا میشه!";
 self::$config['site']['slogan']          = "Software Solution Designer";
 self::$config['site']['googleAnalytics'] = "UA-29692827-1";
